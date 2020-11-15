@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.marketx-app {
   display: flex;
-  flex-direction: column;
+}
+
+.header-content{
+  width: 100%;
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+.header-sort {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+
+  margin-top: 30px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+
+  /* identical to box height, or 157% */
+
+  color: #6B6C6F;
+}
+
+.sort-dropdown {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 230px;
 }
 
-.App-link {
-  color: #61dafb;
+.sort-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6B6C6F;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sort-select {
+  width: 150px;
+  padding: 10px 15px;
+  background-color: white;
+  margin-left: 15px;
+
+  border: 1px solid #E8E9EB;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  /* identical to box height */
+
+  color: #3F434A;  
+}
+
+.content {
+  background-color: #F2F2F2;
+  height: 100%;
+  padding: 0px 40px;
 }

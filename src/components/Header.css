@@ -1,0 +1,76 @@
+.nav-extended {
+    background-color: #FFFFFF;
+    box-shadow: none !important;
+}
+
+.nav-header {
+    height: 70px;
+    width: 100%;
+
+    padding: 0px 40px;
+
+    align-items: center;
+    color: #6b6c6f;
+}
+
+.nav-content {
+    background-color: #F2F2F2;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-pic {
+    align-self: center;
+    margin: 0px 10px;
+}
+
+.header-link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #6B6C6F;
+    margin-right: 40px;
+}
+.active {
+    color: #2F6AFF;
+    font-weight: bold;
+}
+
+.tabs .tab{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    text-transform: none;
+    margin-right: 50px;
+}
+
+.tabs .tab a{
+    padding: 0px 5px;
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
+    color: #6B6C6F;
+    background-color: transparent;
+}
+
+.tabs.tabs-transparent .tab a:hover{
+    color: #6b6c6f;
+}
+.tabs.tabs-transparent .tab a.active {
+    background-color: transparent;
+    border-bottom: 3px solid #2f6aff;
+    color: #3E3F42;
+    font-weight: b old;
+}

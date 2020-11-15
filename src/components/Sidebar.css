@@ -1,0 +1,118 @@
+.sidebar {
+    padding: 0px 30px;
+    max-width: 300px;
+    min-height: 100vh;
+}
+
+.logo {
+    height: 35%;
+    margin-right: 12px;
+}
+
+.sidebar-logo {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0A0A0A;
+
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.sidebar-header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #3F434A;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 0px;
+}
+
+.sidebar-option {
+    margin: 20px 0px;
+}
+
+.sidebar-label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #3F434A;
+}
+
+input {
+    border: 1px solid #E8E9EB !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
+    padding: 10px 15px !important;
+    margin: 10px 0px !important;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 21px;
+    color: #3F434A;
+}
+
+select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+.dropdown {
+    border: 1px solid #E8E9EB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3F434A;
+}
+
+.apply-filters {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    background-color: #2F6AFF;
+    text-align: center;
+
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    vertical-align: middle;
+    width: 100%;
+}
